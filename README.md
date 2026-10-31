@@ -14,7 +14,7 @@ and for each of them they explain the theory, show the implementation, generate 
 ```
 notebooks/
 ├── 01_classical_methods/
-│   ├── 01_1d_elliptic_fem.ipynb
+│   ├── 01_elliptic_1d_fem.ipynb
 │   └── 02_burgers_1d_pseudospectral.ipynb
 ├── 02_pinns/
 │   ├── 01_pinn_1d_elliptic.ipynb
@@ -27,7 +27,7 @@ The folders `03_operator_learning` and `04_hybrid_methods` are not populated yet
 
 | Notebook | Contents |
 | --- | --- |
-| `01_classical_methods/01_1d_elliptic_fem.ipynb` | Finite element method with linear elements: weak form, stiffness and mass matrices, assembly. Generates a dataset of random diffusion problems. |
+| `01_classical_methods/01_elliptic_1d_fem.ipynb` | Finite element method with linear elements: weak form, stiffness and mass matrices, assembly. Generates a dataset of random diffusion problems. |
 | `01_classical_methods/02_burgers_1d_pseudospectral.ipynb` | Fourier pseudospectral method with the FFT and integrating factor RK4 for the Burgers equation. Generates a dataset of random Burgers problems. |
 | `02_pinns/01_pinn_1d_elliptic.ipynb` | Physics-informed neural networks (PINNs) with the Deep Ritz energy loss and a Siren network for the elliptic equation. Compares the solution time with FEM. |
 | `02_pinns/02_pinn_1d_burgers.ipynb` | PINNs with the PDE residual loss for the Burgers equation on the space-time domain. Compares the solution time with the pseudospectral solver. |
